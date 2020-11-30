@@ -1,0 +1,35 @@
+html{
+    text-align: center;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(65, 64, 77);
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+}
+
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+label{
+    text-transform: uppercase;
+    margin: 20px;
+}
+select{
+    padding: 5px;
+}
+button{
+    margin: 20px;
+    border: none;
+    background-color:rgb(65, 161, 65);
+    padding: 10px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+button:hover{
+    background-color: rgb(136, 50, 50);
+}
+div{
+    color: rgb(250, 74, 74);
+}

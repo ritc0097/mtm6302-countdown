@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Time</title>
+</head>
+
+<body>
+    <h1>Select a Date</h1>
+    <form id='form'>
+        <label>Year</label>
+        <select id='year'></select>
+
+        <label>Month</label>
+        <select id='month'></select>
+        
+        <label>Day</label>
+        <select id='day'></select>
+
+        <button>Calculate</button>
+    </form>
+
+    <div id='container'></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/luxon@1.25.0/build/global/luxon.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
