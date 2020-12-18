@@ -26,9 +26,7 @@ $month.addEventListener('change', function() {
     $day.innerHTML = days.join('')
 })
 
-// -------------------------- countdown
-
-//const $container = document.getElementById('container')
+// countdown
 
 let targetDate = {
     hours: 23,
@@ -50,7 +48,7 @@ setInterval(function () {
 
 }, 1000)
 
-// ------------------------local storage
+// local storage
 
 let date = new Date()
 
@@ -64,7 +62,7 @@ localStorage.setItem('targetDate', JSON.stringify(targetDateToStore))
 
 console.log(JSON.parse(localStorage.getItem('targetDate')))
 
-// --------------------------- date difference and ms conversions
+// date difference and ms conversions
 
 const $container = document.getElementById('container')
 
